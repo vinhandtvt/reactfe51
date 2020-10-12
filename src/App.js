@@ -1,7 +1,8 @@
 import React from "react";
 
 import "./App.css";
-import BaiTapGioHangRedux from "./BaiTapRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+// import BaiTapGioHangRedux from "./BaiTapRedux/BaiTapGioHangRedux";
 // import BaiTapThucHanhLayout from "./BaiTapThucHanhLayout/BaiTapThucHanhLayout";
 // import BaiTapGioHang from "./Components/BaiTapGioHang";
 // import BaiTapGioHangLamLai from "./Components/BaiTapGioHangLamLai";
@@ -30,7 +31,8 @@ function App() {
       {/* <BaiTapThucHanhLayout /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapGioHangLamLai /> */}
-      <BaiTapGioHangRedux />
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapGameXucXac />
     </div>
   );
 }
