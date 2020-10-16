@@ -16,6 +16,9 @@ import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
 // import HandlerEvent from './HandlerEvent/HandlerEvent';
 // import DemoConditionalAndState from "./DemoLogin/DemoConditionalAndState";
 
+// npm i node-sass, npm i sass-loader in order to use sass in react.
+// index.css --> index.scss --> import as normal
+
 function App() {
   return (
     <div className="App">
