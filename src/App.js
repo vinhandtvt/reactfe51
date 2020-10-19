@@ -1,7 +1,10 @@
 import React from "react";
 
 import "./App.css";
-import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+import DanhSachNguoiDung from "./FormComponent/DanhSachNguoiDung";
+
+// import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+// import LifeCyle from "./LifeCycle/LifeCyle";
 // import BaiTapGioHangRedux from "./BaiTapRedux/BaiTapGioHangRedux";
 // import BaiTapThucHanhLayout from "./BaiTapThucHanhLayout/BaiTapThucHanhLayout";
 // import BaiTapGioHang from "./Components/BaiTapGioHang";
@@ -35,7 +38,9 @@ function App() {
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapGioHangLamLai /> */}
       {/* <BaiTapGioHangRedux /> */}
-      <BaiTapGameXucXac />
+      {/* <BaiTapGameXucXac /> */}
+      {/* <LifeCyle /> */}
+      <DanhSachNguoiDung />
     </div>
   );
 }
